@@ -1,17 +1,17 @@
 @import-normalize; /* bring in normalize.css styles */
-html {
+/* html {
   height: 100%;
-}
+} */
 body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  background: linear-gradient(#141e30, #243b55);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(#141e30, #243b55);
+  background-size: 150% 150%;
+  height: 100vh;
 }
 
 code {
@@ -21,4 +21,9 @@ code {
 
 ul {
   padding: 0;
+}
+h1,
+h2 {
+  margin: 30px;
+  font-size: 60px;
 }

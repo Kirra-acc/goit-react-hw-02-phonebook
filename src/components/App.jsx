@@ -62,10 +62,7 @@ export class App extends React.Component {
           getFilteredData={this.getFilteredData}
           deleteContact={this.deleteContact}
         >
-          <Filter
-            handleFilter={this.handleFilter}
-            filter={this.state.filter}
-          />
+          <Filter handleFilter={this.handleFilter} filter={this.state.filter} />
         </ContactList>
       </div>
     );

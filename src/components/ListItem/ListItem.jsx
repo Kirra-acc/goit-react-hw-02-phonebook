@@ -4,8 +4,11 @@ import s from './ListItem.module.css';
 export const ListItem = ({ name, number, id, deleteContact }) => {
   return (
     <li className={s.contactItem}>
-      <span>{name}: </span>
-      <span>{number}</span>
+      <div>
+        <span>{name}: </span>
+        <span>{number}</span>
+      </div>
+
       <button
         className={s.deleteBtn}
         type="button"
